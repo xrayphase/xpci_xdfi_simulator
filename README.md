@@ -4,3 +4,4 @@ Project description: X-ray phase-contrast imaging (XPCI) exploits X-ray refracti
 
 To install and run the project, please refer to the attached manual.
 (*) Before running the program, please unzip '/materials/ICRU46.zip' to the same folder.
+(**) Detailed explanation of the method can be found in https://arxiv.org/abs/2407.12664.
