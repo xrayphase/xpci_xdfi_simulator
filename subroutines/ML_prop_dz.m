@@ -1,0 +1,1 @@
+function Un1 = ML_prop_dz(Un,n,dz,Prop,k0,nm)Tn = exp(1i*2*pi*k0*(n-nm)*dz);Un1 = invFT(Prop.*FT(Un.*Tn));%%function ftmp = FT(tmp)ftmp = fftshift(fftn(ifftshift(tmp)));%%function tmp = invFT(ftmp)tmp = ifftshift(ifftn(fftshift(ftmp)));

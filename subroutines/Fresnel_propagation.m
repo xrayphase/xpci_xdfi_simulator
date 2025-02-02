@@ -1,0 +1,1 @@
+function Un = Fresnel_propagation(Un,Trans_F)F_Field0 = fftshift(fftn(ifftshift(Un)));tmp = F_Field0.*Trans_F;Un = ifftshift(ifftn(fftshift(tmp)));end
